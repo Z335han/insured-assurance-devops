@@ -37,7 +37,7 @@ public class HelloServlet extends HttpServlet {
         out.println("        <p>Welcome to our insurance application!</p>");
         out.println("        <div class=\"info\">");
         out.println("            <p><strong>Server Time:</strong> " + new Date() + "</p>");
-        out.println("            <p><strong>Version:</strong> 1.0</p>");
+        out.println("            <p><strong>Version:</strong> 1.1</p>");
         out.println("            <p><strong>Environment:</strong> " + (System.getenv("APP_ENV") != null ? System.getenv("APP_ENV") : "Development") + "</p>");
         out.println("        </div>");
         out.println("        <p><a href=\"index.jsp\">Return to Home</a></p>");
